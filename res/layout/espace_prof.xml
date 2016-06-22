@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF" >
+    
+ <TextView
+     android:id="@+id/bonjour"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="40sp"
+     android:layout_centerHorizontal="true"
+     android:text="Bienvenue Mr El Ouahidi"
+     android:layout_marginBottom="50sp"
+     android:textColor="#2C75FF"
+     android:textSize="18sp"
+     android:textStyle="bold"
+      android:typeface="serif" />
+ 
+ <LinearLayout
+android:id="@+id/layout1"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_centerHorizontal="true"
+  android:layout_below="@id/bonjour"
+  android:layout_marginBottom="40sp" 
+   >
+      
+     <ImageButton
+         android:id="@+id/gestion_etudiants_btn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="20sp"
+         android:background="@drawable/gestion_etudiants_btn"
+         android:contentDescription="Gestion Etudiants"
+         />
+
+ <ImageButton
+     android:id="@+id/gestion_fichiers"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20sp"
+     android:background="@drawable/gestion_fichiers_btn"
+     android:contentDescription="Gestion Fichiers"
+      />
+
+</LinearLayout>
+
+
+ <LinearLayout
+     android:id="@+id/layout2"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+  android:layout_below="@id/layout1" >
+
+ <ImageButton
+     android:id="@+id/visualiser_ecrans"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginRight="20sp"
+     android:background="@drawable/visualiser_ecrans_btn"
+     android:contentDescription="Visualiser Ecrans Etudiants"
+      />
+ 
+ <ImageButton
+     android:id="@+id/gestion_messages"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20sp"
+     android:background="@drawable/gestion_messages_btn"
+     android:contentDescription="Gestion Messages"
+     />
+
+ </LinearLayout>
+
+</RelativeLayout>

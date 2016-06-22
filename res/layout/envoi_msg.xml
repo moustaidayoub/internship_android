@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+     <TextView
+     android:id="@+id/envoi_titre"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="20sp"
+     android:layout_centerHorizontal="true"
+     android:text="Envoi de Message"
+     android:layout_marginBottom="10sp"
+     android:textColor="#2C75FF"
+     android:textSize="18sp"
+     android:textStyle="bold"
+      android:typeface="serif" />
+     
+       <EditText
+         android:id="@+id/destinataire"
+         android:layout_width="240sp" 
+         android:layout_height="40sp"
+         android:hint="Destinataire"
+         android:layout_marginBottom="5sp"
+         android:layout_below="@id/envoi_titre"
+         android:layout_centerHorizontal="true"
+         android:inputType="textAutoComplete"
+         android:maxLines="1"
+         />
+        <EditText
+         android:id="@+id/objet_envoi_msg"
+         android:layout_width="240sp" 
+         android:layout_height="40sp"
+         android:hint="Objet"
+         android:layout_marginBottom="5sp"
+         android:layout_below="@id/destinataire"
+         android:layout_centerHorizontal="true"
+         android:maxLines="1"
+         />
+
+          <EditText
+              android:id="@+id/txt_envoi_msg"
+              android:layout_width="240sp"
+              android:layout_height="40sp"
+              android:layout_below="@id/objet_envoi_msg"
+              android:layout_centerHorizontal="true"
+              android:hint="Message"
+              android:inputType="textMultiLine"
+               />
+
+           <Button 
+         android:id="@+id/envoyer"
+         android:layout_width="100sp"
+         android:layout_height="30sp"
+         android:text="Envoyer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_below="@id/txt_envoi_msg"
+         />
+
+</RelativeLayout>

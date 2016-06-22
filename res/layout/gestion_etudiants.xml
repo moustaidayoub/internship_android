@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF" >
+
+    <Button
+        android:id="@+id/ajouter_etudiant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/add_btn" />
+<ScrollView
+            android:id="@+id/scroll_etudiants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/ajouter_etudiant" >
+  <TableLayout
+	    android:id="@+id/table_etudiants"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:shrinkColumns="0,1"	 
+	    android:layout_below="@id/scroll_etudiants"   
+	    android:layout_centerHorizontal="true"
+	   >
+	   
+	     <TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_etudiant"
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:text="Moustaid Ayoub"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/modifier_etudiant"
+         android:layout_width="70sp"
+         android:layout_height="wrap_content"
+         android:text="Modifier"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/supprimer_etudiant"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Supprimer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow>    	
+    	<TableRow
+    	    android:background="@drawable/xml_borders"
+    	    android:layout_marginBottom="8sp"
+    	    android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_etudiant"
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:text="Addoumi Mohammed"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/modifier_etudiant"
+         android:layout_width="70sp"
+         android:layout_height="wrap_content"
+         android:text="Modifier"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/supprimer_etudiant"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Supprimer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow>    	
+    	<TableRow
+    	    android:background="@drawable/xml_borders"
+    	    android:layout_marginBottom="8sp"
+    	    android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_etudiant"
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:text="Tanji Hamza"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/modifier_etudiant"
+         android:layout_width="70sp"
+         android:layout_height="wrap_content"
+         android:text="Modifier"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/supprimer_etudiant"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Supprimer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow>    
+    	   	<TableRow
+    	   	    android:background="@drawable/xml_borders"
+    	    android:layout_marginBottom="8sp"
+    	    android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_etudiant"
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:text="Marrakchi Tarik"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/modifier_etudiant"
+         android:layout_width="70sp"
+         android:layout_height="wrap_content"
+         android:text="Modifier"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/supprimer_etudiant"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Supprimer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow> 	
+    	 	   	
+
+    	
+	</TableLayout>
+	</ScrollView>
+</RelativeLayout>

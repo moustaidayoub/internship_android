@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+     <TextView
+        android:id="@+id/infos_titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15sp"
+        android:layout_marginTop="30sp"
+        android:text="Informations d'étudiant"
+        android:textColor="#2C75FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+     <TableLayout 
+	    android:id="@+id/infos_table"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	        android:layout_gravity="center_horizontal"
+	    android:shrinkColumns="0,1"	 
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="10sp"
+	    android:layout_below="@id/infos_titre"
+	   >
+	   
+	     <TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         >
+	         <TextView
+            android:id="@+id/infos_cne"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="CNE :"
+            android:textSize="15dp" />    
+              <TextView
+            android:id="@+id/infos_cne2"
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:text="1129287267"
+            android:textSize="15dp" />         
+    	</TableRow> 
+    	   <TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         >
+	         <TextView
+            android:id="@+id/infos_nom"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="Nom :"
+            android:textSize="15dp" />    
+              <TextView
+            android:id="@+id/infos_nom2"
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:text="Moustaid"
+            android:textSize="15dp" />         
+    	</TableRow> 
+    		   <TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         >
+	         <TextView
+            android:id="@+id/infos_prenom"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="Prenom :"
+            android:textSize="15dp" />    
+              <TextView
+            android:id="@+id/infos_prenom2"
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:text="Ayoub"
+            android:textSize="15dp" />         
+    	</TableRow>
+    		   <TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         >
+	         <TextView
+            android:id="@+id/infos_motdepasse"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="Mot de Passe :"
+            android:textSize="15dp" />    
+              <TextView
+            android:id="@+id/infos_motdepasse2"
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:text="ayoub112"
+            android:textSize="15dp" />         
+    	</TableRow>
+    	  
+    		   <TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         >
+	         <TextView
+            android:id="@+id/infos_email"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:textSize="15dp" />    
+              <TextView
+            android:id="@+id/infos_email2"
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:text="moustaidayoubcanvas2012@gmail.com"
+            android:textSize="15dp" />         
+    	</TableRow>
+	     		   <TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         >
+	         <TextView
+            android:id="@+id/infos_tel"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="Tel :"
+            android:textSize="15dp" />    
+              <TextView
+            android:id="@+id/infos_tel2"
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:text="0630138757"
+            android:textSize="15dp" />         
+    	</TableRow>
+    			   <TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         >
+	         <TextView
+            android:id="@+id/infos_datenais"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="D.Naissance :"
+            android:textSize="15dp" />    
+              <TextView
+            android:id="@+id/infos_datenais2"
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:text="04/02/1993"
+            android:textSize="15dp" />         
+    	</TableRow>
+    	</TableLayout>
+      
+
+     
+</RelativeLayout>

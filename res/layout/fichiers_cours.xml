@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" >
+    
+<TableLayout 
+	    android:id="@+id/table_fichiers_cours"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	        android:layout_gravity="center_horizontal"
+	    android:shrinkColumns="0,1"	 
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="10sp"
+	   >
+	   <TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_fichier_cours"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="Cours Java"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/visualiser_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Visualiser"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/envoyer_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Envoyer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow>    
+    	<TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_fichier_cours"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="langages web"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/visualiser_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Visualiser"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/envoyer_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Envoyer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow>  
+    	<TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_fichier_cours"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="Cours UML"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/visualiser_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Visualiser"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/envoyer_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Envoyer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow>  
+    	<TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_fichier_cours"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="Java EE course"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/visualiser_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Visualiser"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/envoyer_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Envoyer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow>    	  	
+    	<TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_fichier_cours"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="intro php"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/visualiser_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Visualiser"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/envoyer_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Envoyer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow>   
+    	<TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_fichier_cours"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="piles et files"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/visualiser_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Visualiser"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/envoyer_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Envoyer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow>   
+    	<TableRow
+	         android:background="@drawable/xml_borders"
+	         android:layout_marginBottom="8sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <TextView
+            android:id="@+id/nom_fichier_cours"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:text="Qualité logiciel"
+            android:textSize="15dp" />            
+	       
+	    <Button 
+         android:id="@+id/visualiser_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Visualiser"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         android:layout_marginRight="7px"
+         />
+       <Button 
+         android:id="@+id/envoyer_fichier_cours"
+         android:layout_width="90sp"
+         android:layout_height="wrap_content"
+         android:text="Envoyer"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />	        
+    	</TableRow>    	 	 	  		
+    	</TableLayout>
+    	</ScrollView>

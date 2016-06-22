@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/ecrans_titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="40sp"
+        android:text="Ecrans des étudiants"
+        android:textColor="#2C75FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+<ScrollView
+           android:id="@+id/scroll_ecrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/ecrans_titre"  >
+     <TableLayout
+	    android:id="@+id/table__ecrans"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:shrinkColumns="0,1"	 
+	    android:layout_below="@id/scroll_ecrans"   
+	    android:layout_centerHorizontal="true"
+	   >
+	   
+	     <TableRow
+	         android:layout_marginBottom="5sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	          android:background="@drawable/xml_borders"
+	         >
+	            <ImageView
+         android:id="@+id/img"
+         android:layout_width="50sp"
+         android:layout_height="57sp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/screen"
+         android:layout_marginRight="10sp"
+         />
+    
+     <TextView
+            android:id="@+id/nom_etudiant_ecrans"
+            android:layout_width="145sp"
+            android:layout_height="60sp"
+            android:text="Moustaid Ayoub"
+            android:gravity="center"
+            android:textSize="15sp"
+        />
+ 
+    	</TableRow>  
+    	
+	     	     <TableRow
+	         android:layout_marginBottom="5sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	          android:background="@drawable/xml_borders">
+	            <ImageView
+         android:id="@+id/img"
+         android:layout_width="50sp"
+         android:layout_height="57sp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/screen"
+         android:layout_marginRight="10sp"
+         />
+    
+     <TextView
+            android:id="@+id/nom_etudiant_ecrans"
+            android:layout_width="145sp"
+            android:layout_height="60sp"
+            android:text="Addoumi Mohammed"
+            android:gravity="center"
+            android:textSize="15sp"
+        />
+ 
+    	</TableRow> 
+    	
+	     	     	     <TableRow
+	         android:layout_marginBottom="5sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	          android:background="@drawable/xml_borders">
+	            <ImageView
+         android:id="@+id/img"
+         android:layout_width="50sp"
+         android:layout_height="57sp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/screen"
+         android:layout_marginRight="10sp"
+         />
+    
+     <TextView
+            android:id="@+id/nom_etudiant_ecrans"
+            android:layout_width="145sp"
+            android:layout_height="60sp"
+            android:text="Tanji Hamza"
+            android:gravity="center"
+            android:textSize="15sp"
+        />
+ 
+    	</TableRow>
+    	  	     	     	     <TableRow
+	         android:layout_marginBottom="5sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	          android:background="@drawable/xml_borders">
+	            <ImageView
+         android:id="@+id/img"
+         android:layout_width="50sp"
+         android:layout_height="57sp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/screen"
+         android:layout_marginRight="10sp"
+         />
+    
+     <TextView
+            android:id="@+id/nom_etudiant_ecrans"
+            android:layout_width="145sp"
+            android:layout_height="60sp"
+            android:text="Marrakchi Tarik"
+            android:gravity="center"
+            android:textSize="15sp"
+        />
+ 
+    	</TableRow> 
+    		  	     	     	     <TableRow
+	         android:layout_marginBottom="5sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	          android:background="@drawable/xml_borders">
+	            <ImageView
+         android:id="@+id/img"
+         android:layout_width="50sp"
+         android:layout_height="57sp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/screen"
+         android:layout_marginRight="10sp"
+         />
+    
+     <TextView
+            android:id="@+id/nom_etudiant_ecrans"
+            android:layout_width="145sp"
+            android:layout_height="60sp"
+            android:text="Chahir Ayoub"
+            android:gravity="center"
+            android:textSize="15sp"
+        />
+ 
+    	</TableRow>
+    		  	     	     	     <TableRow
+	         android:layout_marginBottom="5sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	          android:background="@drawable/xml_borders">
+	            <ImageView
+         android:id="@+id/img"
+         android:layout_width="50sp"
+         android:layout_height="57sp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/screen"
+         android:layout_marginRight="10sp"
+         />
+    
+     <TextView
+            android:id="@+id/nom_etudiant_ecrans"
+            android:layout_width="145sp"
+            android:layout_height="60sp"
+            android:text="Haloui Hicham"
+            android:gravity="center"
+            android:textSize="15sp"
+        />
+ 
+    	</TableRow>
+    		  	     	     	     <TableRow
+	         android:layout_marginBottom="5sp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	          android:background="@drawable/xml_borders">
+	            <ImageView
+         android:id="@+id/img"
+         android:layout_width="50sp"
+         android:layout_height="57sp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/screen"
+         android:layout_marginRight="10sp"
+         />
+    
+     <TextView
+            android:id="@+id/nom_etudiant_ecrans"
+            android:layout_width="145sp"
+            android:layout_height="60sp"
+            android:text="Ibrahima Ndao"
+            android:gravity="center"
+            android:textSize="15sp"
+        />
+ 
+    	</TableRow>
+    	  	     	     	    
+    	</TableLayout>
+</ScrollView>
+</RelativeLayout>

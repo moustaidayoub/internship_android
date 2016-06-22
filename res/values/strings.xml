@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ssc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titre">Supérvision de Salle de Classe</string>
+    <string name="espace_prof">Espace Enseignant</string>
+</resources>

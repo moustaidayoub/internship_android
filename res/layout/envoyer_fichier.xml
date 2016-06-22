@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/envoi_file_titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="20sp"
+        android:text="Envoi fichier"
+        android:textColor="#2C75FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/file_name_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/envoi_file_titre"
+        android:layout_centerInParent="true"
+        android:text="Nom Fichier"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/file_name_send2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/file_name_send"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20sp"
+        android:text="filename.ext"
+        android:textColor="#ED0000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/file_dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/file_name_send2"
+        android:layout_centerInParent="true"
+        android:text="Choisir destinataire"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/type_dest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/file_dest"
+        android:layout_marginBottom="20sp"
+        android:checkedButton="@+id/some"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/some"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tous"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quelques Etudiants"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/envoi_list"
+        android:layout_width="wrap_content"
+        android:layout_height="150sp"
+        android:layout_below="@+id/type_dest"
+        android:layout_centerHorizontal="true"
+        tools:listitem="@android:layout/simple_list_item_checked" >
+    </ListView>
+
+    <Button
+        android:id="@+id/send_file"
+        android:layout_width="100sp"
+        android:layout_height="30sp"
+        android:layout_below="@id/envoi_list"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/connexion_btn"
+        android:gravity="center"
+        android:text="Envoyer"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EDEDED" >
+
+     <TextView
+         android:id="@+id/titre"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="60sp"
+         android:gravity="center"
+         android:text="@string/titre"
+         android:textColor="#74D0F1"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:typeface="serif" />
+
+       <ImageView
+           android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16sp"
+        android:src="@drawable/ic_launcher"
+        android:layout_below="@id/titre" 
+        android:layout_centerHorizontal="true"/>
+     <EditText
+         android:id="@+id/login"
+         android:layout_width="240sp" 
+         android:layout_height="wrap_content"
+         android:hint="Votre CNE ou Matricule"
+         android:layout_marginBottom="12sp"
+         android:layout_below="@id/logo"
+         android:layout_centerHorizontal="true"
+         android:inputType="text"
+         android:maxLines="1"
+         
+         />
+
+     <EditText
+         android:id="@+id/password"
+         android:layout_width="240sp"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/login"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="30sp"
+         android:hint="Votre mot de passe"
+         android:inputType="textPassword"
+         android:maxLines="1"
+         
+        />
+
+     <Button 
+         android:id="@+id/connexion"
+         android:layout_width="150sp"
+         android:layout_height="40sp"
+         android:text="Se Connecter"
+         android:gravity="center"
+         android:textColor="#FFFFFF"
+         android:layout_below="@id/password"
+         android:layout_marginBottom="45sp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/connexion_btn"
+         />
+      <TextView
+         android:id="@+id/password_forget"
+         android:layout_width="180sp" 
+         android:layout_height="wrap_content"
+         android:text="Mot de passe oublié ?"
+         android:layout_marginBottom="20sp"
+         android:textColor="#5A5E6B"
+         android:textSize="16sp"
+         android:layout_alignParentRight="true"
+         android:layout_below="@id/connexion"
+         android:layout_marginLeft="0sp"
+         />
+
+     </RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ssc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ssc.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.ssc.EspaceProf"
+            android:label="Espace Enseignant" >
+            </activity>
+            <activity
+            android:name="com.example.ssc.GestionEtudiants"
+            android:label="Gestion Etudiants" >
+            </activity>
+              <activity
+            android:name="com.example.ssc.AjoutEtudiant"
+            android:label="Ajout d'étudiant" >
+            </activity>
+             <activity
+            android:name="com.example.ssc.VisualiserEcrans"
+            android:label="Visualiser Ecrans" >
+            </activity>
+             <activity
+            android:name="com.example.ssc.GestionMessages"
+            android:label="Gestion Messages" >
+            </activity>
+            
+             <activity
+            android:name="com.example.ssc.MsgsRecus"> 
+             </activity>
+             <activity
+            android:name="com.example.ssc.MsgsEnvoyes">
+            </activity>
+             <activity
+            android:name="com.example.ssc.DetailsEtudiant"
+            android:label="Informations Etudiant" >
+            </activity>
+             <activity
+            android:name="com.example.ssc.DetailsMessage"
+            android:label="Détails Message" >
+            </activity>
+                <activity
+            android:name="com.example.ssc.EnvoiMessage"
+            android:label="Envoi Message" >
+            </activity>
+             <activity
+            android:name="com.example.ssc.FichiersCours">
+            </activity>
+            <activity
+            android:name="com.example.ssc.FichierExercices">
+            </activity>
+            <activity
+            android:name="com.example.ssc.FichiersExamins">
+            </activity>
+             <activity
+            android:name="com.example.ssc.GestionFichiers"
+            android:label="Gestion Fichiers" >
+            </activity>
+            <activity
+            android:name="com.example.ssc.AjoutFichier"
+            android:label="Ajouter Fichier" >
+            </activity>
+            <activity
+            android:name="com.example.ssc.EnvoiFichier"
+            android:label="Envoi Fichier" >
+            </activity>
+    </application>
+
+</manifest>
